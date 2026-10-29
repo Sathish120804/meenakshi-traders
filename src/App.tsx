@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { LanguageProvider } from './context/LanguageContext';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
@@ -71,6 +72,7 @@ export const App: React.FC = () => {
   return (
     <LanguageProvider>
       <MainContent />
+      <SpeedInsights />
     </LanguageProvider>
   );
 };
