@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#174B35"/>
+  <path d="M32 50 C32 36 32 20 32 14" stroke="#C7A45A" stroke-width="3" stroke-linecap="round"/>
+  <!-- Left grains -->
+  <path d="M32 40 C24 38 20 30 24 26 C28 26 31 32 32 36" fill="#4F7D43"/>
+  <path d="M32 30 C24 28 21 21 25 18 C29 18 31 23 32 26" fill="#C7A45A"/>
+  <!-- Right grains -->
+  <path d="M32 36 C40 34 44 26 40 22 C36 22 33 28 32 32" fill="#4F7D43"/>
+  <path d="M32 26 C40 24 43 17 39 14 C35 14 33 19 32 22" fill="#C7A45A"/>
+  <!-- Base seed/soil -->
+  <circle cx="32" cy="52" r="3" fill="#C7A45A"/>
+</svg>
