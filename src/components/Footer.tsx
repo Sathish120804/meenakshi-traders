@@ -171,6 +171,10 @@ export const Footer: React.FC = () => {
                   <span>{sathish.email}</span>
                 </a>
               </div>
+
+              <div className="pt-2 border-t border-white/10 text-xs text-brand-cream/70">
+                <p>GSTIN: 33DDGPM9207P1Z1</p>
+              </div>
             </div>
           </div>
 
